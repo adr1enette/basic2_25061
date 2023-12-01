@@ -5,13 +5,13 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 
-namespace basic2_25061
+namespace Basic2_25061
 {
-    public class Program
+    public static class Program
     {
-        public const int Times = 1000000;
-        public const int Element = 496753;
-        public const int Divide = 777;
+        private const int Times = 1000000;
+        private const int Element = 496753;
+        private const int Divide = 777;
 
         public static void Main(string[] args)
         {
