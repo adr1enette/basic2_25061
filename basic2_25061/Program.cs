@@ -48,7 +48,7 @@ namespace Basic2_25061
             List<int> list = new();
             StringBuilder sb = new();
 
-            long timeAdd = StopwatchTime(() =>
+            var timeAdd = StopwatchTime(() =>
             {
                 for (int i = 0; i < Times; i++)
                 {
@@ -56,12 +56,12 @@ namespace Basic2_25061
                 }
             });
 
-            long timeSearch = StopwatchTime(() =>
+            var timeSearch = StopwatchTime(() =>
             {
                 var tmp = list[Element];
             });
 
-            long timeDivide = StopwatchTime(() =>
+            var timeDivide = StopwatchTime(() =>
             {
                 foreach (int element in list)
                 {
@@ -80,7 +80,7 @@ namespace Basic2_25061
             ArrayList list = new();
             StringBuilder sb = new();
 
-            long timeAdd = StopwatchTime(() =>
+            var timeAdd = StopwatchTime(() =>
             {
                 for (int i = 0; i < Times; i++)
                 {
@@ -88,12 +88,12 @@ namespace Basic2_25061
                 }
             });
 
-            long timeSearch = StopwatchTime(() =>
+            var timeSearch = StopwatchTime(() =>
             {
                 var tmp = list[Element];
             });
 
-            long timeDivide = StopwatchTime(() =>
+            var timeDivide = StopwatchTime(() =>
             {
                 foreach (int element in list)
                 {
@@ -112,7 +112,7 @@ namespace Basic2_25061
             LinkedList<int> list = new();
             StringBuilder sb = new();
 
-            long timeAdd = StopwatchTime(() =>
+            var timeAdd = StopwatchTime(() =>
             {
                 for (int i = 0; i < Times; i++)
                 {
@@ -120,12 +120,12 @@ namespace Basic2_25061
                 }
             });
 
-            long timeSearch = StopwatchTime(() =>
+            var timeSearch = StopwatchTime(() =>
             {
                 var tmp = list.ElementAt(Element);
             });
 
-            long timeDivide = StopwatchTime(() =>
+            var timeDivide = StopwatchTime(() =>
             {
                 foreach (int element in list)
                 {
